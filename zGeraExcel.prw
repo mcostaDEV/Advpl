@@ -14,7 +14,7 @@ Listagem de NFs em Excel via AdvPL
 /*/
 
 
-///// Criação de Tela de Parametros
+///// Criação de Tela de Parametros 
 USER FUNCTION xTela1()
 
 ///Variaveis Locais
@@ -42,7 +42,7 @@ Private _cGetFil02 := Space(2) // Filial Até ?
 Private _cGetDt01 := SToD("") //Emissão de ?
 Private _cGetDt02 := SToD("") //Emissão Até ?
 
-
+	// Inicio da tela
     Define Font _oFont Name "Arial" Size 0,-12 Bold
 
 	/// Criação da Tela
